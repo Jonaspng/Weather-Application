@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🌦Weather Now</title>
+  <link rel="stylesheet" href="css/result.css">
+</head>
+
+<body>
+  <div>
+    <h1 class="date" id="client-date"></h1>
+  </div>
+  <h1><%=city%></h1>
+
+  <div class="box">
+    <img src="<%=imgWeb%>">
+    <p><%=description%></p>
+    <p id="temperature">Temperature: <%=temperature%> °C</p>
+  </div>
+  <footer>
+    Weather Information is provided by OpenWeatherMap
+  </footer>
+  <script src="client2.js" charset="utf-8"></script>
+</body>
+
+</html>
